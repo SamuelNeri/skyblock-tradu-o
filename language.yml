@@ -2,62 +2,62 @@ Command:
   Island:
     Bans:
       Owner:
-        Message: '&cError&8: &evocê não é  um ilha dono.'
+        Message: '&cErro&8: &evocê não é  um ilha dono.'
       Permission:
-        Message: '&cError&8: &evocê não tem the right to view sua ilha bans.'
+        Message: '&cErro&8: &evocê não tem the right to view sua ilha bans.'
       Bans:
-        Message: '&cError&8: &eThere não há player bans for sua ilha.'
+        Message: '&cErro&8: &eThere não há player bans for sua ilha.'
       Info:
         Message: '&f&oOpens the ilha Bans menu.'
     Unlock:
       Money:
-        Message: '&cError&8: &evocê don''t have enough dinheiro to unlock that. The cost to unlock is &c$%cost%&e.'
+        Message: '&cErro&8: &evocê don''t have enough dinheiro to unlock that. The cost to unlock is &c$%cost%&e.'
       Info:
         Message: '&f&oUnlocks either the Nether or The End.'
       Invalid:
-        Message: '&cError&8: &eInvalid: /island unlock [<Nether|End>]'
+        Message: '&cErro&8: &eInvalid: /island unlock [<Nether|End>]'
       Owner:
-        Message: '&cError&8: &evocê não é  um ilha dono.'
+        Message: '&cErro&8: &evocê não é  um ilha dono.'
       Finish:
         Message: '&aInfo&8: &evocê have successfully unlocked ''&7The %type%&e''.'
       Disabled:
-        Message: '&cError&8: &e''&7The %type%&e'' is disabled and cannot be unlocked.'
+        Message: '&cErro&8: &e''&7The %type%&e'' is disabled and cannot be unlocked.'
       Unlocked:
-        Message: '&cError&8: &evocê have already unlocked ''&7The %type%&e''.'
+        Message: '&cErro&8: &evocê have already unlocked ''&7The %type%&e''.'
     Bank:
       Short5:
-        Message: '&cError&8: &eThe amount você specified is negative. It must be positive.'
+        Message: '&cErro&8: &eThe amount você specified is negative. It must be positive.'
       Short2:
-        Message: '&cError&8: &eThere is not enough dinheiro to withdraw.'
+        Message: '&cErro&8: &eThere is not enough dinheiro to withdraw.'
       Invalid:
-        Message: '&cError&8: &eInvalid: /island bank [<Deposit|Withdraw|Balance>]'
+        Message: '&cErro&8: &eInvalid: /island bank [<Deposit|Withdraw|Balance>]'
       Short6:
-        Message: '&cError&8: &evocê must specify um amount that does not contain a decimal.'
+        Message: '&cErro&8: &evocê must specify um amount that does not contain a decimal.'
       Short4:
-        Message: '&cError&8: &eThe amount você specified is invalid.'
+        Message: '&cErro&8: &eThe amount você specified is invalid.'
       Short3:
-        Message: '&cError&8: &evocê did not specify um amount.'
+        Message: '&cErro&8: &evocê did not specify um amount.'
       Short:
-        Message: '&cError&8: &evocê don''t have enough dinheiro to do that.'
+        Message: '&cErro&8: &evocê don''t have enough dinheiro to do that.'
       Withdraw:
         Message: '&aInfo&8: &evocê have successfully withdrawn ''&7$%amount%&e''.'
       Deposit:
         Message: '&aInfo&8: &evocê have successfully deposited ''&7$%amount%&e''.'
       Disabled:
-        Message: '&cError&8: &eThe bank has been disabled by a server administrator.'
+        Message: '&cErro&8: &eThe bank has been disabled by a server administrator.'
       Unknown:
-        Message: '&cError&8: &evocê não é  currently on um ilha.'
+        Message: '&cErro&8: &evocê não é  currently on um ilha.'
       Info:
         Message: '&f&oAllows você to access sua Island''s bank.'
       Perm:
-        Message: '&cError&8: &evocê não tem permission to access this Island''s bank.'
+        Message: '&cErro&8: &evocê não tem permission to access this Island''s bank.'
       Balance:
         Message: '&aInfo&8: &esua Island''s balance is ''&7$%balance%&e''.'
     Accept:
       Invalid:
-        Message: '&cError&8: &eInvalid: /island accept <player>'
+        Message: '&cErro&8: &eInvalid: /island accept <player>'
       Invited:
-        Message: '&cError&8: &eThat player hasn''t invited você to their ilha.'
+        Message: '&cErro&8: &eThat player hasn''t invited você to their ilha.'
       Info:
         Message: '&f&oAccept um ilha invitation.'
       Capacity:
@@ -71,9 +71,9 @@ Command:
         Broadcast:
           Message: '&aInfo&8: &6%player &ejoined sua Island!'
       Owner:
-        Message: '&cError&8: &evocê must leave sua current ilha in order to join a different one.'
+        Message: '&cErro&8: &evocê must leave sua current ilha in order to join a different one.'
       Invite:
-        Message: '&cError&8: &evocê have not received um invite.'
+        Message: '&cErro&8: &evocê have not received um invite.'
     Level:
       Scanning:
         Finished:
@@ -81,26 +81,26 @@ Command:
         Progress:
           Message: '&eScanning ilha level: &b%percent%'
         NotOnIsland:
-          Message: '&cError&8: &evocê cannot initiate um ilha level scum without being on sua ilha.'
+          Message: '&cErro&8: &evocê cannot initiate um ilha level scum without being on sua ilha.'
         BlockPlacing:
-          Message: '&bSkyBlock &8 | &cError:&8: &evocê cannot place blocks during um ilha level scan. Please wait for the scum to finish.'
+          Message: '&bSkyBlock &8 | &cErro:&8: &evocê cannot place blocks during um ilha level scan. Please wait for the scum to finish.'
       Cooldown:
         Word:
           Minute: minute(s)
           Second: second(s)
           Hour: hour(s)
-        Message: '&cError&8: &evocê must wait &c&o%time &ebefore processing um ilha level request.'
+        Message: '&cErro&8: &evocê must wait &c&o%time &ebefore processing um ilha level request.'
       Level:
         Message: '&aInfo&8: &d%player''s &eIsland level is &6%level&e.'
       Owner:
         Yourself:
-          Message: '&cError&8: &evocê não é  um ilha dono.'
+          Message: '&cErro&8: &evocê não é  um ilha dono.'
         Other:
-          Message: '&cError&8: &eThat player is not a Member of or does not own um ilha.'
+          Message: '&cErro&8: &eThat player is not a Member of or does not own um ilha.'
       Permission:
-        Message: '&cError&8: &evocê don''t have permission to get the level of other players'' Islands.'
+        Message: '&cErro&8: &evocê don''t have permission to get the level of other players'' Islands.'
       Invalid:
-        Message: '&cError&8: &eInvalid: /island level [<player>]'
+        Message: '&cErro&8: &eInvalid: /island level [<player>]'
       Loading:
         Message: '&aInfo&8: &7&oLoading ilha Materials... Please wait!'
       Info:
@@ -108,28 +108,28 @@ Command:
       Processing:
         Message: '&aInfo&8: &7&oProcessing ilha level request... Please wait!'
       Materials:
-        Message: '&cError&8: &eThere não há significant materials on sua ilha.'
+        Message: '&cErro&8: &eThere não há significant materials on sua ilha.'
     Unban:
       Member:
-        Message: '&cError&8: &eThat player is not banned from the ilha because they are a Member of it.'
+        Message: '&cErro&8: &eThat player is not banned from the ilha because they are a Member of it.'
       Info:
         Message: '&f&oUnbum a player from sua ilha.'
       Found:
-        Message: '&cError&8: &eA player by that name was not found.'
+        Message: '&cErro&8: &eA player by that name was not found.'
       Invalid:
-        Message: '&cError&8: &eInvalid: /island unbum <player>'
+        Message: '&cErro&8: &eInvalid: /island unbum <player>'
       Yourself:
-        Message: '&cError&8: &evocê não é  banned from the ilha because você are a Member of it.'
+        Message: '&cErro&8: &evocê não é  banned from the ilha because você are a Member of it.'
       Unbanned:
         Message: '&aInfo&8: &evocê have unbanned &c%player &efrom the ilha.'
       Disabled:
-        Message: '&cError&8: &evocê cannot perform this command because ilha banning has been disabled.'
+        Message: '&cErro&8: &evocê cannot perform this command because ilha banning has been disabled.'
       Banned:
-        Message: '&cError&8: &eThat player has not been banned from the ilha.'
+        Message: '&cErro&8: &eThat player has not been banned from the ilha.'
       Owner:
-        Message: '&cError&8: &evocê não é  um ilha dono.'
+        Message: '&cErro&8: &evocê não é  um ilha dono.'
       Permission:
-        Message: '&cError&8: &evocê não tem the right to unbum players from the ilha.'
+        Message: '&cErro&8: &evocê não tem the right to unbum players from the ilha.'
     Admin:
       Reload:
         Info:
@@ -138,35 +138,35 @@ Command:
           Message: '&aInfo&8: &eAll loaded files have been reloaded.'
       RemoveUpgrade:
         Invalid:
-          Message: '&cError&8: &eInvalid: /island admin removeupgrade <player> <upgrade>'
+          Message: '&cErro&8: &eInvalid: /island admin removeupgrade <player> <upgrade>'
         Island:
           Owner:
-            Message: '&cError&8: &eThat player is not a Member of or does not own um ilha.'
+            Message: '&cErro&8: &eThat player is not a Member of or does not own um ilha.'
           Data:
-            Message: '&cError&8: &eThe ilha data for that player''s ilha does not exist.'
+            Message: '&cErro&8: &eThe ilha data for that player''s ilha does not exist.'
         Info:
           Message: '&f&oRemoves um upgrade from a player''s ilha.'
         Upgrade:
           Missing:
-            Message: '&cError&8: &eThat player''s ilha does not have that upgrade.'
+            Message: '&cErro&8: &eThat player''s ilha does not have that upgrade.'
           Exist:
-            Message: '&cError&8: &eum upgrade by that name does not exist.'
+            Message: '&cErro&8: &eum upgrade by that name does not exist.'
         Removed:
           Message: '&aInfo&8: &evocê have &c&lREMOVED &ethe upgrade ''&d%upgrade&e'' from &d%player''s &eilha.'
       SetBiome:
         Island:
           Data:
-            Message: '&cError&8: &eThe ilha data for that player''s ilha does not exist.'
+            Message: '&cErro&8: &eThe ilha data for that player''s ilha does not exist.'
           Owner:
-            Message: '&cError&8: &eThat player is not a Member of or does not own um ilha.'
+            Message: '&cErro&8: &eThat player is not a Member of or does not own um ilha.'
         Set:
           Message: '&aInfo&8: &evocê have set &d%player''s &eIsland biome to &d%biome&e.'
         Info:
           Message: '&f&oSets the size of a player''s ilha.'
         Invalid:
-          Message: '&cError&8: &eInvalid: /island admin setbiome <player> <biome>'
+          Message: '&cErro&8: &eInvalid: /island admin setbiome <player> <biome>'
         InvalidBiome:
-          Message: '&cError&8: &eA biome with that name does not exist.'
+          Message: '&cErro&8: &eA biome with that name does not exist.'
       Structure:
         Tool:
           Info:
@@ -174,29 +174,29 @@ Command:
           Equiped:
             Message: '&aInfo&8: &evocê have been given the Structure tool.'
           Inventory:
-            Message: '&cError&8: &evocê already have the Structure tool in sua inventory.'
+            Message: '&cErro&8: &evocê already have the Structure tool in sua inventory.'
         Save:
           Player:
             World:
-              Message: '&cError&8: &evocê must be in the same World as the selected positions.'
+              Message: '&cErro&8: &evocê must be in the same World as the selected positions.'
             Area:
-              Message: '&cError&8: &evocê must be inside of the selected area.'
+              Message: '&cErro&8: &evocê must be inside of the selected area.'
           Position:
-            Message: '&cError&8: &ePlease use the Structure tool to select two positions of um area.'
+            Message: '&cErro&8: &ePlease use the Structure tool to select two positions of um area.'
           Complete:
-            Message: '&cError&8: &ePlease complete the area selection by using the Structure tool and selecting two positions of um area.'
+            Message: '&cErro&8: &ePlease complete the area selection by using the Structure tool and selecting two positions of um area.'
           Invalid:
-            Message: '&cError&8: &eInvalid: /island admin structure save <name>'
+            Message: '&cErro&8: &eInvalid: /island admin structure save <name>'
           Info:
             Message: '&f&oSaves a selected Structure.'
           Saved:
             Successful:
               Message: '&aInfo&8: &eThe Structure with the name ''&d%name&e'' has been saved!'
             Failed:
-              Message: '&cError&8: &eum error occurred when trying to save the Structure.'
+              Message: '&cErro&8: &eum Erro occurred when trying to save the Structure.'
           Selection:
             World:
-              Message: '&cError&8: &eBoth selected positions have to be in the same World.'
+              Message: '&cErro&8: &eBoth selected positions have to be in the same World.'
         Info:
           Message: '&f&oCreate Structures for Islands.'
       SetSize:
@@ -204,42 +204,42 @@ Command:
           Message: '&aInfo&8: &evocê have set &d%player''s &eIsland size to &d%size&e.'
         Size:
           Less:
-            Message: '&cError&8: &eThe size of the ilha must be less thum 1000.'
+            Message: '&cErro&8: &eThe size of the ilha must be less thum 1000.'
           Greater:
-            Message: '&cError&8: &eThe size of the ilha must be greater thum 50.'
+            Message: '&cErro&8: &eThe size of the ilha must be greater thum 50.'
         Info:
           Message: '&f&oSets the size of a player''s ilha.'
         Island:
           Owner:
-            Message: '&cError&8: &eThat player is not a Member of or does not own um ilha.'
+            Message: '&cErro&8: &eThat player is not a Member of or does not own um ilha.'
           Data:
-            Message: '&cError&8: &eThe ilha data for that player''s ilha does not exist.'
+            Message: '&cErro&8: &eThe ilha data for that player''s ilha does not exist.'
         Numerical:
-          Message: '&cError&8: &evocê must enter a numerical value.'
+          Message: '&cErro&8: &evocê must enter a numerical value.'
         Invalid:
-          Message: '&cError&8: &eInvalid: /island admin setsize <player> <size>'
+          Message: '&cErro&8: &eInvalid: /island admin setsize <player> <size>'
       AddUpgrade:
         Info:
           Message: '&f&oAdd um upgrade to a player''s ilha.'
         Upgrade:
           Exist:
-            Message: '&cError&8: &eum upgrade by that name does not exist.'
+            Message: '&cErro&8: &eum upgrade by that name does not exist.'
           Already:
-            Message: '&cError&8: &eThat player''s ilha already has that upgrade.'
+            Message: '&cErro&8: &eThat player''s ilha already has that upgrade.'
         Added:
           Message: '&aInfo&8: &evocê have &a&lADDED the upgrade ''&d%upgrade&e'' to &d%player''s &eilha.'
         Island:
           Owner:
-            Message: '&cError&8: &eThat player is not a Member of or does not own um ilha.'
+            Message: '&cErro&8: &eThat player is not a Member of or does not own um ilha.'
           Data:
-            Message: '&cError&8: &eThe ilha data for that player''s ilha does not exist.'
+            Message: '&cErro&8: &eThe ilha data for that player''s ilha does not exist.'
         Invalid:
-          Message: '&cError&8: &eInvalid: /island admin addupgrade <player> <upgrade>'
+          Message: '&cErro&8: &eInvalid: /island admin addupgrade <player> <upgrade>'
       SetHologram:
         Set:
           Message: '&aInfo&8: &eThe ''&b%type&e'' hologram has been set to sua location.'
         Invalid:
-          Message: '&cError&8: &eInvalid: /island admin sethologram <Level|Votes>'
+          Message: '&cErro&8: &eInvalid: /island admin sethologram <Level|Votes>'
         Info:
           Message: '&f&oSets the location of a hologram.'
       Settings:
@@ -249,20 +249,20 @@ Command:
         Info:
           Message: '&f&oManage upgrades for the ilha Upgrade menu.'
         Disabled:
-          Message: '&cError&8: &evocê cannot perform that command because upgrades have been disabled.'
+          Message: '&cErro&8: &evocê cannot perform that command because upgrades have been disabled.'
       Create:
         Info:
           Message: '&f&oManage Structures for the ilha Creator menu.'
       Generator:
         Disabled:
-          Message: '&cError&8: &evocê cannot perform that command because the generator has been disabled.'
+          Message: '&cErro&8: &evocê cannot perform that command because the generator has been disabled.'
         Info:
           Message: '&f&oManage generators for cobblestone generators.'
       RemoveHologram:
         Invalid:
-          Message: '&cError&8: &eInvalid: /island admin removehologram <Level|Votes>'
+          Message: '&cErro&8: &eInvalid: /island admin removehologram <Level|Votes>'
         Set:
-          Message: '&cError&8: &eA location for that hologram has not been set.'
+          Message: '&cErro&8: &eA location for that hologram has not been set.'
         Info:
           Message: '&f&oRemoves um existing hologram.'
         Removed:
@@ -271,13 +271,13 @@ Command:
         Deleted:
           Message: '&aInfo&8: &evocê have deleted &c%player''s &eilha.'
         Invalid:
-          Message: '&cError&8: &eInvalid: /island admin delete <player>'
+          Message: '&cErro&8: &eInvalid: /island admin delete <player>'
         Info:
           Message: '&f&oDelete a player''s ilha permanently.'
         Spawn:
-          Message: '&cError&8: &evocê cannot delete that ilha because the main spawn point is set there.'
+          Message: '&cErro&8: &evocê cannot delete that ilha because the main spawn point is set there.'
         Owner:
-          Message: '&cError&8: &eThat player is not um ilha dono.'
+          Message: '&cErro&8: &eThat player is not um ilha dono.'
       RefreshHolograms:
         Info:
           Message: '&f&oRefreshes any existing holograms.'
@@ -288,7 +288,7 @@ Command:
           Message: '&f&oChange ilha level materials and points.'
       Owner:
         Invalid:
-          Message: '&cError&8: &eInvalid: /island admin dono <player>'
+          Message: '&cErro&8: &eInvalid: /island admin dono <player>'
         Info:
           Message: '&f&oGet the dono of a player''s ilha.'
         Island:
@@ -297,7 +297,7 @@ Command:
           Member:
             Message: '&aInfo&8: &d%player''s ilha dono is &d%player&e.'
           None:
-            Message: '&cError&8: &eThat player is not a Member of or does not own um ilha.'
+            Message: '&cErro&8: &eThat player is not a Member of or does not own um ilha.'
       SetSpawn:
         Set:
           Message: '&aInfo&8: &eThe spawn point has been set to sua location.'
@@ -305,33 +305,33 @@ Command:
           Message: '&f&oSets the spawn point to sua location.'
     Coop:
       Invalid:
-        Message: '&cError&8: &eInvalid: /island coop [<player>]'
+        Message: '&cErro&8: &eInvalid: /island coop [<player>]'
       Removed:
         Sender:
           Message: '&aInfo&8: &evocê have removed the coop of &d%player&e.'
         Target:
           Message: '&aInfo&8: &evocê não há longer a coop Member of that ilha.'
       Disabled:
-        Message: '&cError&8: &evocê cannot perform this command because ilha Coop has been disabled.'
+        Message: '&cErro&8: &evocê cannot perform this command because ilha Coop has been disabled.'
       Info:
         Message: '&f&oOpen the ilha Coop menu or add/remove coop players.'
       Member:
-        Message: '&cError&8: &eThat player cannot be cooped because they are already a Member of the ilha.'
+        Message: '&cErro&8: &eThat player cannot be cooped because they are already a Member of the ilha.'
       Found:
-        Message: '&cError&8: &eA player by that name was not found.'
+        Message: '&cErro&8: &eA player by that name was not found.'
       Owner:
-        Message: '&cError&8: &evocê não é  um ilha dono.'
+        Message: '&cErro&8: &evocê não é  um ilha dono.'
       Yourself:
-        Message: '&cError&8: &evocê cannot coop yourself because you''re already a Member of the ilha.'
+        Message: '&cErro&8: &evocê cannot coop yourself because you''re already a Member of the ilha.'
       Added:
         Message: '&aInfo&8: &evocê have cooped &d%player&e.'
       Banned:
-        Message: '&cError&8: &evocê cannot coop a banned player.'
+        Message: '&cErro&8: &evocê cannot coop a banned player.'
       Permission:
-        Message: '&cError&8: &evocê não tem the right to do that.'
+        Message: '&cErro&8: &evocê não tem the right to do that.'
     Delete:
       Owner:
-        Message: '&cError&8: &evocê não é  um ilha dono.'
+        Message: '&cErro&8: &evocê não é  um ilha dono.'
       Confirmation:
         Confirm:
           Message: '&aInfo&8: &evocê want to delete sua ilha. você have &c%time &eseconds to confirm.   %confirm'
@@ -339,76 +339,76 @@ Command:
             Confirm: confirm
             Tutorial: '&7Click to &f&oconfirm &r&7Island deletion!'
         Pending:
-          Message: '&cError&8: &evocê currently have a pending confirmation. Please try again in a few seconds!'
+          Message: '&cErro&8: &evocê currently have a pending confirmation. Please try again in a few seconds!'
       Info:
         Message: '&f&oDeletes sua ilha.'
       Permission:
-        Message: '&cError&8: &evocê não tem the right to delete sua ilha.'
+        Message: '&cErro&8: &evocê não tem the right to delete sua ilha.'
     Kick:
       Invalid:
-        Message: '&cError&8: &eInvalid: /island kick <player>'
+        Message: '&cErro&8: &eInvalid: /island kick <player>'
       Role:
         Owner:
-          Message: '&cError&8: &evocê cannot kick the dono from their own ilha.'
+          Message: '&cErro&8: &evocê cannot kick the dono from their own ilha.'
         Operator:
-          Message: '&cError&8: &evocê cannot kick a Member of the ilha who has the same role as you.'
+          Message: '&cErro&8: &evocê cannot kick a Member of the ilha who has the same role as you.'
       Occupant:
         Visit:
           Open:
-            Message: '&cError&8: &eThat player is not a Member or a Visitor of sua ilha.'
+            Message: '&cErro&8: &eThat player is not a Member or a Visitor of sua ilha.'
           Closed:
-            Message: '&cError&8: &eThat player is not a Member of sua ilha.'
+            Message: '&cErro&8: &eThat player is not a Member of sua ilha.'
       Kicked:
         Sender:
           Message: '&aInfo&8: &evocê have kicked &c%player from the ilha.'
         Target:
           Message: '&aInfo&8: &evocê have been kicked from the ilha.'
       Yourself:
-        Message: '&cError&8: &evocê cannot kick yourself from the ilha.'
+        Message: '&cErro&8: &evocê cannot kick yourself from the ilha.'
       Owner:
-        Message: '&cError&8: &evocê não é  um ilha dono.'
+        Message: '&cErro&8: &evocê não é  um ilha dono.'
       Permission:
         Visit:
           Open:
-            Message: '&cError&8: &evocê não tem the right to kick ilha Members or Visitors.'
+            Message: '&cErro&8: &evocê não tem the right to kick ilha Members or Visitors.'
           Closed:
-            Message: '&cError&8: &evocê não tem the right to kick ilha Members.'
+            Message: '&cErro&8: &evocê não tem the right to kick ilha Members.'
       Cooped:
-        Message: '&cError&8: &evocê cannot kick a cooped player.'
+        Message: '&cErro&8: &evocê cannot kick a cooped player.'
       Info:
         Message: '&f&oRemove a Member or a Visitor from sua ilha.'
     KickAll:
       Info:
         Message: '&f&oKick all Visitors from sua ilha.'
       Owner:
-        Message: '&cError&8: &evocê não é  um ilha dono.'
+        Message: '&cErro&8: &evocê não é  um ilha dono.'
       Role:
-        Message: '&cError&8: &evocê não tem the correct role to kick Visitors.'
+        Message: '&cErro&8: &evocê não tem the correct role to kick Visitors.'
       Closed:
-        Message: '&cError&8: &evocê cannot kick Visitors because sua ilha is closed.'
+        Message: '&cErro&8: &evocê cannot kick Visitors because sua ilha is closed.'
       Kicked:
         Sender:
           Message: '&aInfo&8: &evocê have kicked &c%visitors &evisitors from sua ilha.'
         Target:
           Message: '&aInfo&8: &evocê have been kicked from the ilha.'
       Visitors:
-        Message: '&cError&8: &eThere não há Visitors at sua ilha.'
+        Message: '&cErro&8: &eThere não há Visitors at sua ilha.'
     Open:
       Info:
         Message: '&f&oOpens sua ilha to Visitors.'
       Owner:
-        Message: '&cError&8: &eThat player is not um ilha dono.'
+        Message: '&cErro&8: &eThat player is not um ilha dono.'
       Permission:
-        Message: '&cError&8: &evocê não tem the right to open the ilha.'
+        Message: '&cErro&8: &evocê não tem the right to open the ilha.'
       Already:
-        Message: '&cError&8: &esua ilha is already open.'
+        Message: '&cErro&8: &esua ilha is already open.'
       Opened:
         Message: '&aInfo&8: &esua ilha has been opened.'
     Leave:
       Member:
-        Message: '&cError&8: &evocê não é  a Member of um ilha.'
+        Message: '&cErro&8: &evocê não é  a Member of um ilha.'
       Owner:
-        Message: '&cError&8: &evocê cannot leave sua own ilha.'
+        Message: '&cErro&8: &evocê cannot leave sua own ilha.'
       Left:
         Broadcast:
           Message: '&aInfo&8: &c%player &ehas left sua ilha.'
@@ -425,24 +425,24 @@ Command:
         Sender:
           Message: '&aInfo&8: &evocê have promoted &d%player &eto um &dOperator&e.'
       Permission:
-        Message: '&cError&8: &evocê não tem the right to promote ilha Members.'
+        Message: '&cErro&8: &evocê não tem the right to promote ilha Members.'
       Invalid:
-        Message: '&cError&8: &eInvalid: /island promote <player>'
+        Message: '&cErro&8: &eInvalid: /island promote <player>'
       Member:
-        Message: '&cError&8: &eThat player is not a Member of sua ilha.'
+        Message: '&cErro&8: &eThat player is not a Member of sua ilha.'
       Owner:
-        Message: '&cError&8: &evocê não é  um ilha dono.'
+        Message: '&cErro&8: &evocê não é  um ilha dono.'
       Info:
         Message: '&f&oPromotes a Member to Operator.'
       Operator:
-        Message: '&cError&8: &eThat player is already um Operator.'
+        Message: '&cErro&8: &eThat player is already um Operator.'
     Chat:
       Owner:
-        Message: '&cError&8: &evocê não é  um ilha dono.'
+        Message: '&cErro&8: &evocê não é  um ilha dono.'
       Team:
-        Message: '&cError&8: &evocê cannot toggle ilha chat because você não tem um ilha team.'
+        Message: '&cErro&8: &evocê cannot toggle ilha chat because você não tem um ilha team.'
       Offline:
-        Message: '&cError&8: &evocê cannot toggle ilha chat because no other Members are online.'
+        Message: '&cErro&8: &evocê cannot toggle ilha chat because no other Members are online.'
       Untoggled:
         Message: '&aInfo&8: &evocê have untoggled the ilha chat. Chat messages will now be visible for all players.'
       Info:
@@ -452,19 +452,19 @@ Command:
     Vote:
       Island:
         Closed:
-          Message: '&cError&8: &evocê cannot vote for that ilha because it is closed.'
+          Message: '&cErro&8: &evocê cannot vote for that ilha because it is closed.'
         Member:
-          Message: '&cError&8: &evocê cannot vote for that ilha because você are a Member of it.'
+          Message: '&cErro&8: &evocê cannot vote for that ilha because você are a Member of it.'
         None:
-          Message: '&cError&8: &eThat player is not a Member of or does not own um ilha.'
+          Message: '&cErro&8: &eThat player is not a Member of or does not own um ilha.'
         Location:
-          Message: '&cError&8: &evocê must be at that player''s ilha in order to vote for them.'
+          Message: '&cErro&8: &evocê must be at that player''s ilha in order to vote for them.'
         Unloaded:
-          Message: '&cError&8: &eThere não há Members of that ilha online.'
+          Message: '&cErro&8: &eThere não há Members of that ilha online.'
       Invalid:
-        Message: '&cError&8: &eInvalid: /island vote <player>'
+        Message: '&cErro&8: &eInvalid: /island vote <player>'
       Disabled:
-        Message: '&cError&8: &evocê cannot vote for that ilha because voting is disabled.'
+        Message: '&cErro&8: &evocê cannot vote for that ilha because voting is disabled.'
       Info:
         Message: Add or remove a vote from a player''s ilha.
       Vote:
@@ -485,40 +485,40 @@ Command:
           Other:
             Message: '&aInfo&8: &eThat player is not at um ilha.'
       Invalid:
-        Message: '&cError&8: &eInvalid: /island current <player>'
+        Message: '&cErro&8: &eInvalid: /island current <player>'
       Info:
         Message: '&f&oDisplay the current ilha você are at.'
       Offline:
-        Message: '&cError&8: &eThat player is not connected to the server.'
+        Message: '&cErro&8: &eThat player is not connected to the server.'
       Permission:
-        Message: '&cError&8: &evocê don''t have permission to see what ilha other players are at.'
+        Message: '&cErro&8: &evocê don''t have permission to see what ilha other players are at.'
     Deny:
       Info:
         Message: '&f&oDeny um ilha invitation.'
       Invited:
-        Message: '&cError&8: &eThat player hasn''t invited você to their ilha.'
+        Message: '&cErro&8: &eThat player hasn''t invited você to their ilha.'
       Denied:
         Sender:
           Message: '&aInfo&8: &evocê have denied &c%player''s &einvite.'
         Target:
           Message: '&aInfo&8: &c%player &ehas denied sua invite.'
       Invalid:
-        Message: '&cError&8: &eInvalid: /island deny <player>'
+        Message: '&cErro&8: &eInvalid: /island deny <player>'
     Value:
       Hand:
-        Message: '&cError&8: &evocê must be holding um item in sua hand.'
+        Message: '&cErro&8: &evocê must be holding um item in sua hand.'
       None:
-        Message: '&cError&8: &eCannot get the value of that material.'
+        Message: '&cErro&8: &eCannot get the value of that material.'
       Info:
         Message: '&f&oGet the value of a material in sua hand.'
       Value:
         Message: '&aInfo&8: &eThe value of the material ''&d%material&e'' is &d%points &epoints and has a &d%level &elevel increase.'
       Permission:
-        Message: '&cError&8: &evocê don''t have permission to get the value of um item.'
+        Message: '&cErro&8: &evocê don''t have permission to get the value of um item.'
     Ownership:
       Confirmation:
         Pending:
-          Message: '&cError&8: &evocê currently have a pending confirmation. Please try again in a few seconds!'
+          Message: '&cErro&8: &evocê currently have a pending confirmation. Please try again in a few seconds!'
         Confirm:
           Word:
             Confirm: confirm
@@ -526,17 +526,17 @@ Command:
           Message: '&aInfo&8: &evocê want to assign ownership of the ilha to the player &d%player&e. você have &c%time &eseconds to confirm.   %confirm'
       Password:
         Unset:
-          Message: '&cError&8: &eThe dono of the ilha has not set a password.'
+          Message: '&cErro&8: &eThe dono of the ilha has not set a password.'
         Incorrect:
-          Message: '&cError&8: &eThe password você have entered is incorrect.'
+          Message: '&cErro&8: &eThe password você have entered is incorrect.'
       Invalid:
-        Message: '&cError&8: &eInvalid: /island ownership / (<player> / <password>)'
+        Message: '&cErro&8: &eInvalid: /island ownership / (<player> / <password>)'
       Cooldown:
         Word:
           Minute: minute(s)
           Hour: hour(s)
           Second: second(s)
-        Message: '&cError&8: &evocê must wait &c&o%time &ebefore transferring ilha ownership.'
+        Message: '&cErro&8: &evocê must wait &c&o%time &ebefore transferring ilha ownership.'
       Info:
         Message: '&f&oOpen the ilha Ownership menu.'
       Assigned:
@@ -545,11 +545,11 @@ Command:
         Sender:
           Message: '&aInfo&8: &evocê have assigned yourself ownership of the ilha.'
       Yourself:
-        Message: '&cError&8: &evocê cannot assign ownership to yourself. você are already the dono.'
+        Message: '&cErro&8: &evocê cannot assign ownership to yourself. você are already the dono.'
       Owner:
-        Message: '&cError&8: &evocê não é  um ilha dono.'
+        Message: '&cErro&8: &evocê não é  um ilha dono.'
       Member:
-        Message: '&cError&8: &eThat player is not a Member of sua ilha.'
+        Message: '&cErro&8: &eThat player is not a Member of sua ilha.'
     Invite:
       Invited:
         Target:
@@ -573,81 +573,81 @@ Command:
           Resend: resend
           Accept: accept
       Capacity:
-        Message: '&cError&8: &evocê cannot invite any more players to sua ilha because sua ilha has reached the Member capacity.'
+        Message: '&cErro&8: &evocê cannot invite any more players to sua ilha because sua ilha has reached the Member capacity.'
       Already:
         Own:
-          Message: '&cError&8: &eum invite has already been sent to that player.'
+          Message: '&cErro&8: &eum invite has already been sent to that player.'
         Other:
-          Message: '&cError&8: &eAnother ilha has already invited this player to join them.'
+          Message: '&cErro&8: &eAnother ilha has already invited this player to join them.'
       Yourself:
-        Message: '&cError&8: &evocê cannot invite yourself.'
+        Message: '&cErro&8: &evocê cannot invite yourself.'
       Permission:
-        Message: '&cError&8: &evocê não tem the right to invite players to sua ilha.'
+        Message: '&cErro&8: &evocê não tem the right to invite players to sua ilha.'
       Offline:
-        Message: '&cError&8: &eThat player could not be found.'
+        Message: '&cErro&8: &eThat player could not be found.'
       Owner:
-        Message: '&cError&8: &evocê não é  um ilha dono.'
+        Message: '&cErro&8: &evocê não é  um ilha dono.'
       Member:
-        Message: '&cError&8: &eThat player is already a Member of the ilha.'
+        Message: '&cErro&8: &eThat player is already a Member of the ilha.'
       Info:
         Message: '&f&oInvite a Player to join sua ilha.'
       Invalid:
-        Message: '&cError&8: &eInvalid: /island invite <player>'
+        Message: '&cErro&8: &eInvalid: /island invite <player>'
     SetSpawn:
       Protection:
         Centre:
-          Message: '&cError&8: &evocê must be standing close to the center of the block for spawn protection.'
+          Message: '&cErro&8: &evocê must be standing close to the center of the block for spawn protection.'
         Ground:
-          Message: '&cError&8: &evocê must be standing on the ground for spawn protection.'
+          Message: '&cErro&8: &evocê must be standing on the ground for spawn protection.'
         Block:
-          Message: '&cError&8: &evocê must be standing on top of a block for spawn protection.'
+          Message: '&cErro&8: &evocê must be standing on top of a block for spawn protection.'
         Liquid:
-          Message: '&cError&8: &evocê must not be standing in a liquid source for spawn protection.'
+          Message: '&cErro&8: &evocê must not be standing in a liquid source for spawn protection.'
         Portal:
-          Message: '&cError&8: &evocê must not be standing in a portal for spawn protection.'
+          Message: '&cErro&8: &evocê must not be standing in a portal for spawn protection.'
       Spawn:
-        Message: '&cError&8: &eThat is not a correct spawn type.'
+        Message: '&cErro&8: &eThat is not a correct spawn type.'
       Set:
         Message: '&aInfo&8: &eThe %spawn spawn point for sua ilha has been set to sua location.'
       Owner:
-        Message: '&cError&8: &evocê não é  um ilha dono.'
+        Message: '&cErro&8: &evocê não é  um ilha dono.'
       Invalid:
-        Message: '&cError&8: &eInvalid: /island setspawn <Main|Visitor>'
+        Message: '&cErro&8: &eInvalid: /island setspawn <Main|Visitor>'
       Permission:
-        Message: '&cError&8: &evocê não tem the right to set the %spawn spawn point for sua ilha.'
+        Message: '&cErro&8: &evocê não tem the right to set the %spawn spawn point for sua ilha.'
       Info:
         Message: '&f&oSet sua Visitor and Main spawn point.'
       Role:
-        Message: '&cError&8: &evocê não é  the right to set the %spawn spawn point for sua ilha.'
+        Message: '&cErro&8: &evocê não é  the right to set the %spawn spawn point for sua ilha.'
       Island:
-        Message: '&cError&8: &evocê must be at sua ilha in order to set the %spawn spawn point.'
+        Message: '&cErro&8: &evocê must be at sua ilha in order to set the %spawn spawn point.'
     Demote:
       Role:
-        Message: '&cError&8: &eThat player is already a Member.'
+        Message: '&cErro&8: &eThat player is already a Member.'
       Demoted:
         Sender:
           Message: '&aInfo&8: &evocê have demoted &d%player &eto a &dMember&e.'
         Target:
           Message: '&aInfo&8: &evocê have been demoted to a &dMember&e.'
       Member:
-        Message: '&cError&8: &eThat player is not a Member of sua ilha.'
+        Message: '&cErro&8: &eThat player is not a Member of sua ilha.'
       Permission:
-        Message: '&cError&8: &evocê não tem the right to demote ilha Members.'
+        Message: '&cErro&8: &evocê não tem the right to demote ilha Members.'
       Info:
         Message: '&f&oDemotes um Operator to Member.'
       Owner:
-        Message: '&cError&8: &evocê não é  um ilha dono.'
+        Message: '&cErro&8: &evocê não é  um ilha dono.'
       Invalid:
-        Message: '&cError&8: &eInvalid: /island demote <player>'
+        Message: '&cErro&8: &eInvalid: /island demote <player>'
     Information:
       Island:
-        Message: '&cError&8: &eThat player is not a Member of or does not own um ilha.'
+        Message: '&cErro&8: &eThat player is not a Member of or does not own um ilha.'
       Invalid:
-        Message: '&cError&8: &eInvalid: /island information [<player>]'
+        Message: '&cErro&8: &eInvalid: /island information [<player>]'
       Permission:
-        Message: '&cError&8: &evocê don''t have permission to view information on other players'' Islands.'
+        Message: '&cErro&8: &evocê don''t have permission to view information on other players'' Islands.'
       Owner:
-        Message: '&cError&8: &evocê não é  um ilha dono.'
+        Message: '&cErro&8: &evocê não é  um ilha dono.'
       Info:
         Message: '&f&oOpens the ilha Information menu.'
     Reset:
@@ -660,18 +660,18 @@ Command:
             Tutorial: '&7Click to &f&oconfirm &r&7Island reset!'
           Message: '&aInfo&8: &evocê want to reset sua ilha. você have &c%time &eseconds to confirm.'
         Pending:
-          Message: '&cError&8: &evocê currently have a pending confirmation. Please try again in a few seconds!'
+          Message: '&cErro&8: &evocê currently have a pending confirmation. Please try again in a few seconds!'
       Owner:
-        Message: '&cError&8: &evocê não é  um ilha dono.'
+        Message: '&cErro&8: &evocê não é  um ilha dono.'
       Permission:
-        Message: '&cError&8: &evocê não tem the right to reset sua ilha.'
+        Message: '&cErro&8: &evocê não tem the right to reset sua ilha.'
     Upgrade:
       Info:
         Message: '&f&oOpens the ilha Upgrade menu.'
       Disabled:
-        Message: '&cError&8: &evocê cannot do that because ilha Upgrades have been disabled.'
+        Message: '&cErro&8: &evocê cannot do that because ilha Upgrades have been disabled.'
       Owner:
-        Message: '&cError&8: &evocê não é  um ilha dono.'
+        Message: '&cErro&8: &evocê não é  um ilha dono.'
     Ban:
       Banned:
         Sender:
@@ -679,113 +679,113 @@ Command:
         Target:
           Message: '&aInfo&8: &evocê have been banned from the ilha.'
       Already:
-        Message: '&cError&8: &eThat player is already banned from the ilha.'
+        Message: '&cErro&8: &eThat player is already banned from the ilha.'
       Owner:
-        Message: '&cError&8: &evocê não é  um ilha dono.'
+        Message: '&cErro&8: &evocê não é  um ilha dono.'
       Permission:
-        Message: '&cError&8: &evocê não tem the right to bum ilha Members.'
+        Message: '&cErro&8: &evocê não tem the right to bum ilha Members.'
       Yourself:
-        Message: '&cError&8: &evocê cannot bum yourself from the ilha.'
+        Message: '&cErro&8: &evocê cannot bum yourself from the ilha.'
       Found:
-        Message: '&cError&8: &eA player by that name was not found.'
+        Message: '&cErro&8: &eA player by that name was not found.'
       Info:
         Message: '&f&oBum a player from sua ilha.'
       Member:
-        Message: '&cError&8: &evocê cannot bum that player from the ilha because they are a Member of it.'
+        Message: '&cErro&8: &evocê cannot bum that player from the ilha because they are a Member of it.'
       Disabled:
-        Message: '&cError&8: &evocê cannot perform this command because ilha banning has been disabled.'
+        Message: '&cErro&8: &evocê cannot perform this command because ilha banning has been disabled.'
       Invalid:
-        Message: '&cError&8: &eInvalid: /island bum <player>'
+        Message: '&cErro&8: &eInvalid: /island bum <player>'
     Rollback:
       Info:
         Message: '&f&oOpens the ilha Rollback menu.'
       Role:
-        Message: '&cError&8: &evocê não tem the correct role to access the ilha Rollback menu.'
+        Message: '&cErro&8: &evocê não tem the correct role to access the ilha Rollback menu.'
       Owner:
-        Message: '&cError&8: &evocê não é  um ilha dono.'
+        Message: '&cErro&8: &evocê não é  um ilha dono.'
     Biome:
       Info:
         Message: '&f&oOpens the ilha Biome menu.'
       Permission:
-        Message: '&cError&8: &evocê não tem the right to change sua Island''s biome.'
+        Message: '&cErro&8: &evocê não tem the right to change sua Island''s biome.'
       Owner:
-        Message: '&cError&8: &evocê não é  um ilha dono.'
+        Message: '&cErro&8: &evocê não é  um ilha dono.'
     Visitors:
       Info:
         Message: '&f&oOpens the ilha Visitors menu.'
       Closed:
-        Message: '&cError&8: &evocê cannot open the Visitors menu because sua ilha is closed.'
+        Message: '&cErro&8: &evocê cannot open the Visitors menu because sua ilha is closed.'
       Owner:
-        Message: '&cError&8: &evocê não é  um ilha dono.'
+        Message: '&cErro&8: &evocê não é  um ilha dono.'
       Visitors:
-        Message: '&cError&8: &eThere não há Visitors at sua ilha.'
+        Message: '&cErro&8: &eThere não há Visitors at sua ilha.'
     ControlPanel:
       Owner:
-        Message: '&cError&8: &evocê não é  um ilha dono.'
+        Message: '&cErro&8: &evocê não é  um ilha dono.'
       Info:
         Message: '&f&oOpens the ilha Control Panel menu.'
     Border:
       Info:
         Message: '&f&oOpens the ilha Border menu.'
       Owner:
-        Message: '&cError&8: &evocê não é  um ilha dono.'
+        Message: '&cErro&8: &evocê não é  um ilha dono.'
       Permission:
-        Message: '&cError&8: &evocê não tem the right to view the ilha Border menu.'
+        Message: '&cErro&8: &evocê não tem the right to view the ilha Border menu.'
       Disabled:
-        Message: '&cError&8: &evocê cannot do that because the ilha Border has been disabled.'
+        Message: '&cErro&8: &evocê cannot do that because the ilha Border has been disabled.'
     Settings:
       Permission:
         Default:
-          Message: '&cError&8: &evocê não tem the right to change or access sua Island''s settings.'
+          Message: '&cErro&8: &evocê não tem the right to change or access sua Island''s settings.'
         Change:
-          Message: '&cError&8: &evocê não tem the right to change this setting.'
+          Message: '&cErro&8: &evocê não tem the right to change this setting.'
         Access:
-          Message: '&cError&8: &evocê não tem the right to access this setting.'
+          Message: '&cErro&8: &evocê não tem the right to access this setting.'
       Info:
         Message: '&f&oOpen the ilha Settings menu.'
       Role:
-        Message: '&cError&8: &evocê não é  the correct role to access the ilha Settings.'
+        Message: '&cErro&8: &evocê não é  the correct role to access the ilha Settings.'
       Owner:
-        Message: '&cError&8: &evocê não é  um ilha dono.'
+        Message: '&cErro&8: &evocê não é  um ilha dono.'
     Confirmation:
       Deletion:
         Spawn:
-          Message: '&cError&8: &evocê cannot delete sua ilha because the main spawn point is set there.'
+          Message: '&cErro&8: &evocê cannot delete sua ilha because the main spawn point is set there.'
         Open:
-          Message: '&cError&8: &evocê must close sua ilha before deleting it.'
+          Message: '&cErro&8: &evocê must close sua ilha before deleting it.'
         Sender:
           Message: '&aInfo&8: &evocê não há longer um ilha dono.'
         Broadcast:
           Message: '&aInfo&8: &eThe ilha dono has disbanded the ilha.'
         Money:
-          Message: '&cError&8: &evocê don''t have enough dinheiro to delete sua ilha. The cost of deleting sua ilha is &c%cost&e.'
+          Message: '&cErro&8: &evocê don''t have enough dinheiro to delete sua ilha. The cost of deleting sua ilha is &c%cost&e.'
       Owner:
-        Message: '&cError&8: &evocê cannot confirm sua pending confirmation because você não é  um ilha dono.'
+        Message: '&cErro&8: &evocê cannot confirm sua pending confirmation because você não é  um ilha dono.'
       Info:
         Message: '&f&oConfirmation for permanent operations.'
       Ownership:
         Member:
-          Message: '&cError&8: &evocê cannot confirm sua pending confirmation because the player você assigned ownership to is no longer a Member of the ilha.'
+          Message: '&cErro&8: &evocê cannot confirm sua pending confirmation because the player você assigned ownership to is no longer a Member of the ilha.'
         Assigned:
           Message: '&aInfo&8: &evocê have been assigned ownership of the ilha.'
       Specified:
-        Message: '&cError&8: &eA reason for confirmation hasn''t been specified. This wasn''t supposed to happen.'
+        Message: '&cErro&8: &eA reason for confirmation hasn''t been specified. This wasn''t supposed to happen.'
       Role:
-        Message: '&cError&8: &evocê cannot confirm sua pending confirmation because você não há longer the ilha dono.'
+        Message: '&cErro&8: &evocê cannot confirm sua pending confirmation because você não há longer the ilha dono.'
       Confirmed:
         Message: '&aInfo&8: &evocê have confirmed sua pending confirmation.'
       Pending:
-        Message: '&cError&8: &evocê não tem a pending confirmation.'
+        Message: '&cErro&8: &evocê não tem a pending confirmation.'
     Visit:
       Info:
         Message: '&f&oOpens a menu of public Islands to Visit.'
       Invalid:
-        Message: '&cError&8: &eInvalid: /island visit [<player>]'
+        Message: '&cErro&8: &eInvalid: /island visit [<player>]'
     Help:
       Page:
-        Message: '&cError&8: &eThere não é  that many pages.'
+        Message: '&cErro&8: &eThere não é  that many pages.'
       Integer:
-        Message: '&cError&8: &ePlease provide a numerical value.'
+        Message: '&cErro&8: &ePlease provide a numerical value.'
       Word:
         Next: '&a&lNext Page'
         Previous: '&a&lPrevious Page'
@@ -797,17 +797,17 @@ Command:
     Teleport:
       Island:
         None:
-          Message: '&cError&8: &eThat player is not a Member of or does not own um ilha.'
+          Message: '&cErro&8: &eThat player is not a Member of or does not own um ilha.'
         Closed:
-          Message: '&cError&8: &eThat player''s ilha is not open to Visitors.'
+          Message: '&cErro&8: &eThat player''s ilha is not open to Visitors.'
       Permission:
-        Message: '&cError&8: &evocê don''t have permission to teleport to other players'' Islands.'
+        Message: '&cErro&8: &evocê don''t have permission to teleport to other players'' Islands.'
       Info:
         Message: '&f&oTeleport to sua ilha.'
       Invalid:
-        Message: '&cError&8: &eInvalid: /island teleport [<player>]'
+        Message: '&cErro&8: &eInvalid: /island teleport [<player>]'
       Owner:
-        Message: '&cError&8: &evocê não é  um ilha dono.'
+        Message: '&cErro&8: &evocê não é  um ilha dono.'
       Teleported:
         Yourself:
           Message: '&aInfo&8: &evocê have been teleported to sua ilha.'
@@ -815,75 +815,75 @@ Command:
           Message: '&aInfo&8: &evocê have been teleported to &a%player''s &eilha.'
     Create:
       Owner:
-        Message: '&cError&8: &evocê are already um ilha dono.'
+        Message: '&cErro&8: &evocê are already um ilha dono.'
       Info:
         Message: '&f&oOpens the ilha Creator menu.'
     Members:
       Info:
         Message: '&f&oOpen the ilha Members menu.'
       Owner:
-        Message: '&cError&8: &evocê não é  um ilha dono.'
+        Message: '&cErro&8: &evocê não é  um ilha dono.'
     Weather:
       Permission:
-        Message: '&cError&8: &evocê não tem the right to change sua Island''s weather.'
+        Message: '&cErro&8: &evocê não tem the right to change sua Island''s weather.'
       Owner:
-        Message: '&cError&8: &evocê não é  um ilha dono.'
+        Message: '&cErro&8: &evocê não é  um ilha dono.'
       Info:
         Message: '&f&oOpens the ilha Weather menu.'
     Argument:
       Unrecognised:
-        Message: '&cError&8: &eThat argument was not recognised.'
+        Message: '&cErro&8: &eThat argument was not recognised.'
     Cancel:
       Owner:
-        Message: '&cError&8: &evocê não é  um ilha dono.'
+        Message: '&cErro&8: &evocê não é  um ilha dono.'
       Offline:
-        Message: '&cError&8: &eThat player could not be found.'
+        Message: '&cErro&8: &eThat player could not be found.'
       Info:
         Message: '&f&oCancel a Player invitation.'
       Invited:
-        Message: '&cError&8: &eThat player hasn''t been invited to sua ilha.'
+        Message: '&cErro&8: &eThat player hasn''t been invited to sua ilha.'
       Permission:
-        Message: '&cError&8: &evocê não tem the right to cancel invites to sua ilha.'
+        Message: '&cErro&8: &evocê não tem the right to cancel invites to sua ilha.'
       Invalid:
-        Message: '&cError&8: &eInvalid: /island cancel <player>'
+        Message: '&cErro&8: &eInvalid: /island cancel <player>'
       Cancelled:
         Message: '&aInfo&8: &evocê have cancelled &c%player''s &einvite.'
       Member:
-        Message: '&cError&8: &eThat player is a Member of the ilha.'
+        Message: '&cErro&8: &eThat player is a Member of the ilha.'
     Close:
       Closed:
         Message: '&aInfo&8: &esua ilha has been closed.'
       Already:
-        Message: '&cError&8: &esua ilha is already closed.'
+        Message: '&cErro&8: &esua ilha is already closed.'
       Owner:
-        Message: '&cError&8: &eThat player is not um ilha dono.'
+        Message: '&cErro&8: &eThat player is not um ilha dono.'
       Permission:
-        Message: '&cError&8: &evocê não tem the right to close the ilha.'
+        Message: '&cErro&8: &evocê não tem the right to close the ilha.'
       Info:
         Message: '&f&oCloses sua ilha to Visitors.'
     Public:
       Info:
         Message: '&f&oMake sua ilha private or public.'
       Permission:
-        Message: '&cError&8: &evocê não tem the right to make the ilha public or private.'
+        Message: '&cErro&8: &evocê não tem the right to make the ilha public or private.'
       Owner:
-        Message: '&cError&8: &eThat player is not um ilha dono.'
+        Message: '&cErro&8: &eThat player is not um ilha dono.'
       Private:
         Message: '&aInfo&8: &esua ilha is now &cPrivate&e.'
       Public:
         Message: '&aInfo&8: &esua ilha is now &aPublic&e.'
     Leaderboard:
       Disabled:
-        Message: '&cError&8: &evocê cannot view that leaderboard because it has been disabled.'
+        Message: '&cErro&8: &evocê cannot view that leaderboard because it has been disabled.'
       Info:
         Message: '&f&oOpens the Leaderboard menu of the top 10 Islands.'
       Invalid:
-        Message: '&cError&8: &eInvalid: /island leaderboard [<Level|Bank|Votes>]'
+        Message: '&cErro&8: &eInvalid: /island leaderboard [<Level|Bank|Votes>]'
   PermissionDenied:
     Admin:
-      Message: '&cError&8: &evocê don''t have permission to perform that command.'
+      Message: '&cErro&8: &evocê don''t have permission to perform that command.'
     Island:
-      Message: '&cError&8: &evocê don''t have permission to perform that command.'
+      Message: '&cErro&8: &evocê don''t have permission to perform that command.'
 Scoreboard:
   Tutorial:
     Displaylines:
@@ -3185,7 +3185,7 @@ Island:
   Limit:
     Block:
       Exceeded:
-        Message: '&cError&8: &eYou''ve exceeded the limit of &b%types &evocê cum place (&b%limit&e).'
+        Message: '&cErro&8: &eYou''ve exceeded the limit of &b%types &evocê cum place (&b%limit&e).'
   Chat:
     Format:
       Role:
@@ -3197,23 +3197,23 @@ Island:
       Message: '&aInfo&8: &eThe ilha chat has been untoggled because there não há ilha Members online. Chat messages will now be visible for all players.'
   SpawnProtection:
     Break:
-      Message: '&cError&8: &evocê cannot break the spawn point of the ilha.'
+      Message: '&cErro&8: &evocê cannot break the spawn point of the ilha.'
     Place:
-      Message: '&cError&8: &evocê cannot obstruct the spawn point of the ilha.'
+      Message: '&cErro&8: &evocê cannot obstruct the spawn point of the ilha.'
   Admin:
     Levelling:
       Numerical:
-        Message: '&cError&8: &ePlease provide a numerical value.'
+        Message: '&cErro&8: &ePlease provide a numerical value.'
       Removed:
         Message: '&aInfo&8: &evocê have removed the material ''&d%material&e''.'
       Points:
         Message: '&aInfo&8: &evocê have set the material ''&d%material&e'' points to ''&6%points&8''.'
       Permission:
-        Message: '&cError&8: &evocê don''t have permission to do that.'
+        Message: '&cErro&8: &evocê don''t have permission to do that.'
       Already:
-        Message: '&cError&8: &eThat material type has already been added.'
+        Message: '&cErro&8: &eThat material type has already been added.'
       Exist:
-        Message: '&cError&8: &eThat material type has not been added.'
+        Message: '&cErro&8: &eThat material type has not been added.'
       Division:
         Message: '&aInfo&8: &evocê have set the points division to ''&f%division&e''.'
       Added:
@@ -3221,46 +3221,46 @@ Island:
     Generator:
       Material:
         Limit:
-          Message: '&cError&8: &evocê have reached the limit of materials for that generator.'
+          Message: '&cErro&8: &evocê have reached the limit of materials for that generator.'
         Added:
           Message: '&aInfo&8: &evocê have added the material ''&d%material&e'' to the generator ''&d%generator&e''.'
         Already:
-          Message: '&cError&8: &eThat material type has already been added to that generator.'
+          Message: '&cErro&8: &eThat material type has already been added to that generator.'
       Chance:
         Numerical:
-          Message: '&cError&8: &evocê must enter a numerical value.'
+          Message: '&cErro&8: &evocê must enter a numerical value.'
         Over:
-          Message: '&cError&8: &evocê cannot set the chance of the material to that, because the overall chance total for materials will exceed 100.'
+          Message: '&cErro&8: &evocê cannot set the chance of the material to that, because the overall chance total for materials will exceed 100.'
       Exist:
-        Message: '&cError&8: &eThat generator does not exist.'
+        Message: '&cErro&8: &eThat generator does not exist.'
       Permission:
-        Message: '&cError&8: &evocê don''t have permission to do that.'
+        Message: '&cErro&8: &evocê don''t have permission to do that.'
       Already:
-        Message: '&cError&8: &eA generator by that name already exists.'
+        Message: '&cErro&8: &eA generator by that name already exists.'
       Removed:
         Message: '&aInfo&8: &evocê have removed the generator with the name ''&d%generator&e''.'
       Selected:
-        Message: '&cError&8: &evocê have not selected a generator.'
+        Message: '&cErro&8: &evocê have not selected a generator.'
       Disabled:
-        Message: '&cError&8: &evocê cannot do that because generators have been disabled.'
+        Message: '&cErro&8: &evocê cannot do that because generators have been disabled.'
       Created:
         Message: '&aInfo&8: &evocê have created a generator with the name ''&d%generator&e''.'
       Characters:
-        Message: '&cError&8: &eThe generator name cum only contain letters and numbers.'
+        Message: '&cErro&8: &eThe generator name cum only contain letters and numbers.'
     Upgrade:
       Permission:
-        Message: '&cError&8: &evocê don''t have permission to do that.'
+        Message: '&cErro&8: &evocê don''t have permission to do that.'
       Tier:
         Size:
-          Message: '&cError&8: &eThe size of the tier must be less thum 1000.'
+          Message: '&cErro&8: &eThe size of the tier must be less thum 1000.'
         Limit:
-          Message: '&cError&8: &evocê have reached the limit of tiers for this upgrade.'
+          Message: '&cErro&8: &evocê have reached the limit of tiers for this upgrade.'
         Selected:
-          Message: '&cError&8: &evocê cannot do that because the selected tier has been removed.'
+          Message: '&cErro&8: &evocê cannot do that because the selected tier has been removed.'
         Exist:
-          Message: '&cError&8: &eA tier for that upgrade already exists.'
+          Message: '&cErro&8: &eA tier for that upgrade already exists.'
       Numerical:
-        Message: '&cError&8: &evocê must enter a numerical value.'
+        Message: '&cErro&8: &evocê must enter a numerical value.'
     Creator:
       Item:
         Removed:
@@ -3270,56 +3270,56 @@ Island:
         Added:
           Message: '&aInfo&8: &eSelect um item in sua inventory.'
       Characters:
-        Message: '&cError&8: &eThe Structure name cum only contain letters and numbers.'
+        Message: '&cErro&8: &eThe Structure name cum only contain letters and numbers.'
       Permission:
-        Message: '&cError&8: &evocê don''t have permission to do that.'
+        Message: '&cErro&8: &evocê don''t have permission to do that.'
       Selected:
-        Message: '&cError&8: &evocê have not selected a Structure.'
+        Message: '&cErro&8: &evocê have not selected a Structure.'
       Removed:
         Message: '&aInfo&8: &evocê have removed the Structure with the name ''&d%structure&e''.'
       Already:
-        Message: '&cError&8: &eA Structure by that name already exists.'
+        Message: '&cErro&8: &eA Structure by that name already exists.'
       Numerical:
-        Message: '&cError&8: &evocê must enter a numerical value.'
+        Message: '&cErro&8: &evocê must enter a numerical value.'
       Created:
         Message: '&aInfo&8: &evocê have created a Structure with the name ''&d%structure&e''.'
       Exist:
-        Message: '&cError&8: &eThat Structure does not exist.'
+        Message: '&cErro&8: &eThat Structure does not exist.'
       File:
-        Message: '&cError&8: &eThat file does not exist in the Structures directory.'
+        Message: '&cErro&8: &eThat file does not exist in the Structures directory.'
   Creator:
     Selector:
       Created:
         Message: '&aInfo&8: &evocê are now um ilha dono.'
       None:
-        Message: '&cError&8: &eThere não há Structures available to use.'
+        Message: '&cErro&8: &eThere não há Structures available to use.'
       Permission:
-        Message: '&cError&8: &evocê don''t have permission to use that Structure.'
+        Message: '&cErro&8: &evocê don''t have permission to use that Structure.'
       File:
         Overworld:
-          Message: '&cError&8: &eThe Structure file for the Overworld does not exist.'
+          Message: '&cErro&8: &eThe Structure file for the Overworld does not exist.'
         Nether:
-          Message: '&cError&8: &eThe Structure file for the Nether does not exist.'
+          Message: '&cErro&8: &eThe Structure file for the Nether does not exist.'
         End:
-          Message: '&cError&8: &eThe structure file for The End does not exist.'
+          Message: '&cErro&8: &eThe structure file for The End does not exist.'
       Cooldown:
         Word:
           Minute: minute(s)
           Second: second(s)
-        Message: '&cError&8: &evocê must wait &c&o%time &ebefore creating um ilha.'
-    Error:
-      Message: '&cError&8: &eThe main spawn point must be set before você are able to create um ilha by performing the command ''&f&o/island admin setspawn&e''.'
+        Message: '&cErro&8: &evocê must wait &c&o%time &ebefore creating um ilha.'
+    Erro:
+      Message: '&cErro&8: &eThe main spawn point must be set before você are able to create um ilha by performing the command ''&f&o/island admin setspawn&e''.'
   Upgrade:
     Owner:
-      Message: '&cError&8: &evocê não é  um ilha dono.'
+      Message: '&cErro&8: &evocê não é  um ilha dono.'
     Disabled:
-      Message: '&cError&8: &evocê cannot do that because ilha Upgrades have been disabled.'
+      Message: '&cErro&8: &evocê cannot do that because ilha Upgrades have been disabled.'
     Exist:
-      Message: '&cError&8: &eThat upgrade does not exist.'
+      Message: '&cErro&8: &eThat upgrade does not exist.'
     Money:
-      Message: '&cError&8: &evocê don''t have enough dinheiro for that upgrade.'
+      Message: '&cErro&8: &evocê don''t have enough dinheiro for that upgrade.'
     Claimed:
-      Message: '&cError&8: &evocê have already claimed that upgrade.'
+      Message: '&cErro&8: &evocê have already claimed that upgrade.'
     Bought:
       Message: '&aInfo&8: &evocê have bought the upgrade ''&7%upgrade&e''.'
   Biome:
@@ -3327,14 +3327,14 @@ Island:
       Word:
         Second: second(s)
         Minute: minute(s)
-      Message: '&cError&8: &evocê must wait &c&o%time &ebefore changing sua ilha biome.'
+      Message: '&cErro&8: &evocê must wait &c&o%time &ebefore changing sua ilha biome.'
   Information:
     Island:
-      Message: '&cError&8: &eThe player você selected no longer has um ilha.'
+      Message: '&cErro&8: &eThe player você selected no longer has um ilha.'
     Visitors:
-      Message: '&cError&8: &eThere não há Visitors at the selected ilha.'
+      Message: '&cErro&8: &eThere não há Visitors at the selected ilha.'
     Closed:
-      Message: '&cError&8: &eThe selected ilha is closed to Visitors.'
+      Message: '&cErro&8: &eThe selected ilha is closed to Visitors.'
   Coop:
     Removed:
       Owner:
@@ -3346,7 +3346,7 @@ Island:
       Position:
         Message: '&aInfo&8: &ePosition &b%position &ehas been selected!'
       Material:
-        Message: '&cError&8: &eThe defined material in the configuration file for the Structure selection tool could not be found.'
+        Message: '&cErro&8: &eThe defined material in the configuration file for the Structure selection tool could not be found.'
       Item:
         Displayname: '&bStructure Tool'
         Lore:
@@ -3354,68 +3354,68 @@ Island:
         - '&7um area.'
   Portal:
     Destination:
-      Message: '&cError&8: &eThere is no destination to travel to by going through that portal.'
+      Message: '&cErro&8: &eThere is no destination to travel to by going through that portal.'
     Stuck:
-      Message: '&cError&8: &evocê have been teleported to safety away from sua stuck position.'
+      Message: '&cErro&8: &evocê have been teleported to safety away from sua stuck position.'
   WorldBorder:
     Outside:
-      Message: '&cError&8: &evocê went too far outside of the ilha WorldBorder.'
+      Message: '&cErro&8: &eVocê foi para fora da borda da ilha.'
     Disappeared:
-      Message: '&cError&8: &eThe ilha você were on suddenly disappeared.'
+      Message: '&cErro&8: &eA ilha que você estava de repente desapareceu.'
   World:
     Word:
       Nether: nether
       End: end
-    Message: '&aInfo&8: &evocê have been teleported out of the Nether because it is disabled.'
+    Message: '&aInfo&8: &eVocê foi teleportado para fora do nether pois ele está desabilitado.'
   Visit:
     Teleported:
-      Message: '&aInfo&8: &evocê have been teleported to &a%player''s &eilha.'
+      Message: '&aInfo&8: &eVocê foi teleportado com sucesso para ilha do &a%player.'
     Closed:
       Plugin:
-        Message: '&cError&8: &evocê cannot teleport to the destination location because the ilha isn''t open for Visitors.'
+        Message: '&cErro&8: &eVocê não pode teleportar para esta ilha pois ela não está baerta para visitação.'
       Island:
-        Message: '&aInfo&8: &eThe ilha você were at is no longer open for Visitors.'
+        Message: '&aInfo&8: &eEsta ilha não está aberta para visitantes.'
       Menu:
-        Message: '&cError&8: &eThat ilha is no longer open for Visitors.'
+        Message: '&cErro&8: &eEsta ilha não está aberta para visitantes.'
     Banned:
       Island:
-        Message: '&aInfo&8: &evocê have been banned from the ilha that você were at.'
+        Message: '&aInfo&8: &eVocê foi banido da ilha que você está.'
       Teleport:
-        Message: '&cError&8: &evocê cannot teleport to the destination location because você are banned from that ilha.'
+        Message: '&cErro&8: &eVocê não pode teleportar para esta localização pois está banido da ilha'
     Already:
-      Message: '&cError&8: &evocê are already at that player''s ilha.'
+      Message: '&cErro&8: &eVocê já está na ilha do player'
     Vote:
       Added:
-        Message: '&aInfo&8: &esua vote has been &a&lADDED &efor &a%player''s &eilha.'
+        Message: '&aInfo&8: &eSeu voto foi &a&lAdicionad &epara ilha do &a%player'
       Island:
-        Message: '&cError&8: &evocê must be at that ilha to vote.'
+        Message: '&cErro&8: &eVocê precisa estar na ilha apra votar.'
       Removed:
-        Message: '&aInfo&8: &esua vote has been &c&lREMOVED &efor &a%player''s &eilha.'
+        Message: '&aInfo&8: &eSeu voto foi &c&lRemovido &eda ilha do &a%player.'
     Unloaded:
-      Message: '&aInfo&8: &eThere não há Members of the ilha online. você have been kicked from the ilha.'
+      Message: '&aInfo&8: &eNão há mais membros desta ilha online. Você foi kikado da ilha.'
     Exist:
-      Message: '&cError&8: &eThat ilha no longer exists.'
+      Message: '&cErro&8: &eEsta ilha não existe mais.'
     Deleted:
-      Message: '&aInfo&8: &eThe dono of the ilha has deleted their ilha. você have been kicked from the ilha.'
+      Message: '&aInfo&8: &eO dono desta ilha deletou ela. Você foi kikado desta ilha.'
   Unlock:
     Nether:
-      Message: '&cError&8: &evocê need to pay to unlock the Nether. To do that use &7/island unlock nether&e This will cost ''&7$%cost%&e''.'
+      Message: '&cErro&8: &eVocê precisa pagar para desbloquear o Nether. Para isso use &7/island unlock nether&e Isto irá custar: ''&7$%cost%&e''.'
     End:
-      Message: '&cError&8: &evocê need to pay to unlock The End. To do that use &7/island unlock end&e This will cost ''&7$%cost%&e''.'
+      Message: '&cErro&8: &eVocê precisa pagar para desbloquear o End. Para isso use &7/island unlock end&e Isto irá custar: ''&7$%cost%&e''.'
   Settings:
     Visitor:
       Welcome:
         Disabled:
-          Message: '&cError&8: &evocê don''t have permission to use that feature.'
+          Message: '&cErro&8: &evocê don''t have permission to use that feature.'
       Signature:
         Disabled:
-          Message: '&cError&8: &evocê don''t have permission to use that feature.'
+          Message: '&cErro&8: &evocê don''t have permission to use that feature.'
     Permission:
-      Message: '&cError&8: &evocê não tem the right to do that on this ilha.'
+      Message: '&cErro&8: &evocê não tem the right to do that on this ilha.'
 Hologram:
   Leaderboard:
     Votes:
-      Footer: '&ewww.example.net'
+      Footer: '&ewww.craftlife.com.br'
       Claimed: '&8* &f&o[%position] &a%player &7- &6%votes'
       Unclaimed: '&8* &f&o[%position] &7&oUnclaimed Position'
       Header: '&b&lSkyBlock &8&l| &e&lTop 10 Votes'
@@ -3428,6 +3428,6 @@ Hologram:
       Header: '&b&lSkyBlock &8&l| &e&lTop 10 Level'
       Claimed: '&8* &f&o[%position] &a%player &7- &6%level'
       Unclaimed: '&8* &f&o[%position] &7&oUnclaimed Position'
-      Footer: '&ewww.example.net'
+      Footer: '&ewww.craftlife.com.br'
   Stackable:
-    Message: '%blocks: %amount'
+    Message: '%blocos: %amount'
